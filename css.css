@@ -1,0 +1,94 @@
+
+body {
+    font-family: 'Roboto', sans-serif; /* Use Roboto for body text */
+    margin: 0;
+    padding: 0;
+    background-color: #4CAF50;
+    color: #333;
+}
+
+header h1 {
+    font-family: 'Lobster', cursive; /* Use Lobster for the main title */
+	font-size:60px;
+}
+
+nav a {
+    font-family: 'Roboto', sans-serif;
+    color: #FFFFFC;
+    text-decoration: none;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+#hero {
+    padding: 40px 20px;
+    background: #a5d6a7; /* Light green for hero section */
+    text-align: center;
+}
+
+#gallery {
+    padding: 20px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.image-placeholder {
+    width: 30%;
+    height: 200px;
+    background-color: #c8e6c9; /* Light green for placeholders */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5em;
+    color: #555;
+}
+
+#blog {
+    padding: 20px;
+}
+
+article {
+    background: #e8f5e9; /* Very light green for articles */
+    margin: 15px 0;
+    padding: 15px;
+    border-left: 5px solid #4CAF50; /* Green accent */
+}
+.image-container {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.image-container img {
+    width: 30%; /* Set a width for each image */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 300px; /* Optional: limit the maximum width */
+    border-radius: 8px; /* Optional: add rounded corners */
+}
+
+
+footer {
+    background: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+
+
